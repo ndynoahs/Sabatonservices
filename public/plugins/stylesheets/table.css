@@ -1,0 +1,67 @@
+*{
+    
+}
+a{
+    text-decoration: none;
+}
+#plumbing-rates{
+    padding-top: 10rem;
+    padding-bottom: 11rem;
+}
+.plum{
+    background-color: #ffff;
+  }
+  
+.plum h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.plum-info{
+    padding-bottom: 6rem;
+}
+.plum-info p{
+    font-size: 1.1rem;
+    font-weight: 150;
+    color: #000;
+   
+}
+h2{
+    text-align: center;
+    padding-bottom: 3rem;
+    font-weight: 500;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+ 
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 13px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  th{
+    color: rgb(100, 158, 209);
+    background-color: #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.plum-info .container p span{
+    color: rgb(243, 26, 26);
+    font-size: 1.1rem;
+}
+
+@media (max-width: 992px) {
+    .plum-info p{
+        font-size: 1rem;   
+    }
+    .plum h2{
+        font-size: 40px;
+    }
+  }
