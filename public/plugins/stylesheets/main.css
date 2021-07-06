@@ -3,17 +3,6 @@
 
 
 /*//////////////////////////////////////////////////////////////////
-[ FONT ]*/
-
-/* @font-face {
-  font-family: Ubuntu-Bold;
-  src: url('../fonts/ubuntu/Ubuntu-Bold.ttf'); 
-} */
-
-
-
-/*//////////////////////////////////////////////////////////////////
-[ RESTYLE TAG ]*/
 
 * {
 	margin: 0px; 
@@ -21,14 +10,10 @@
 	box-sizing: border-box;
 }
 
-/* body, html {
-	height: 100%;
-	font-family: Ubuntu-Bold, sans-serif;
-} */
 
 /*---------------------------------------------*/
 a {
-	font-family: Ubuntu-Bold;
+	
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -140,7 +125,7 @@ iframe {
   align-items: center;
   padding: 15px;
   position: relative;
-  background-color: #f2f2f2cf;
+  background-color:rgba(207, 231, 241, 0.324);  
 }
 
 .wrap-contact100 {
@@ -458,12 +443,14 @@ a:hover{
 /* RATES TABLE  */
 
 
+
+
 @media (max-width: 992px) {
   .alert-validate::before {
     visibility: visible;
     opacity: 1;
   }
-  .wrapper {
+  .STYLEwrapper {
     width: 100%;
   }
   .map .container {
