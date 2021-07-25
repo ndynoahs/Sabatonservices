@@ -40,6 +40,10 @@
 	padding-left: 1rem;
 	font-family: Ubuntu-Bold;
 }
+.nav-item:hover{
+	border-bottom: 3px solid tomato;;	
+	
+}
 .navbar-nav .nav-item ul{
 	
     font-size: 0.9rem;
@@ -64,28 +68,31 @@
     position: relative;
     display: inline-block;
 	color: tomato;
-  }
+}
   
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(207, 231, 241, 0.938);
-    min-width: 160px;
+    background-color: rgba(237, 237, 237, 0.938);
+    min-width: 190px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 16px 20px;
+    padding: 30px 15px 15px 20px;
     z-index: 1;
-  }
-  .dropdown-content p a{
-	  text-decoration: none;
-  }
-  .dropdown-content p a:hover{
-      list-style: none;
-	  color: tomato;
-	  text-decoration: none;
-	  
-  }
- 
-  .dropdown:hover .dropdown-content {
+}
+
+.dropdown-content p a{
+	text-decoration: none;
+	font-size: 1rem;
+}  
+  
+.dropdown-content p a:hover{
+	list-style: none;
+	color: tomato;
+	text-decoration: none;
+	font-size: 1.2rem
+} 
+
+.dropdown:hover .dropdown-content {
     display: block;
   }
 /* SLIDES SECTION */
@@ -627,8 +634,9 @@
 /* ABOUT US  */
 
 #about-us{
-	padding-top: 9rem;
-	background-color: rgba(207, 231, 241, 0.324);   
+	padding-top: 8rem;
+	background-color: rgba(207, 231, 241, 0.324); 
+	padding-bottom: 5rem;  
   }
 .about-intro{
 	text-align: center;
@@ -637,7 +645,7 @@
 }
 
 .about-text p{
-	font-size: 1rem;
+	font-size: 1.1rem;
 	padding-top: .8rem;
 	font-weight: 500;
 	text-align: ;
@@ -705,8 +713,7 @@
 	/* SERVICE SECTION */
 	.services-text h1{
 		text-align: center;
-		font-weight: 800;
-		font-size: 30px;
+		font-size: 25px;
 		color: rgb(17, 28, 61);
 		padding-top: 3rem ;
 		padding-bottom: 2rem ;
