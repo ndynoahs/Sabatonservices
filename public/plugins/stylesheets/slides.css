@@ -1,0 +1,92 @@
+
+
+.carousel-item {
+    margin-top: 5.7rem;
+    height: 40rem;
+    background-color: rgba(207, 231, 241, 0.472);   
+}
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 40rem;
+}
+.carousel-caption {
+    bottom: 8rem;
+}
+
+
+.head{
+    font-weight: 700;
+    font-size: 48px;
+    color: #fff !important;
+    padding: 10px;
+}
+
+.btn-custom:hover{
+    background: #fff;
+    color: #18d36e;
+}
+.first-slide{
+   width: 100%;
+}
+
+.btn-custom1{
+    background: inherit;
+    color: #fff;
+    border-radius: 20px;
+    padding: 7px 25px;
+    border: 2px solid #fff;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.btn-custom1:hover{
+    background: #18d36e;
+    color: #fff;
+    border-radius: 20px;
+    padding: 7px 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+
+@media (max-width: 576px){
+    .reduce{
+        width: 100%;
+    }
+    .fassr{
+        display: none;
+    }
+    .tc{
+        text-align: center !important;
+    }
+    .fase{
+        left: 12rem;
+    }
+    .tk{
+        margin-top: 2rem;
+    }
+    .dot1{
+        display: none;
+    }
+    .dot2{
+        display: none;
+    }
+    .head{
+        font-size: 1.6rem;
+    }
+    .para{
+        font-size: 0.7rem;
+    }
+    .card:hover .move{
+        display: block;
+        position: absolute;
+        bottom: 5rem;
+        left: 9rem;
+    }
+    .line{
+        border: none;
+        padding: 0;
+    }
+}

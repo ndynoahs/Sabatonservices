@@ -11,8 +11,15 @@
 .container .call{
 	display: none;
 }
+.logo {
+    position: relative;
+    width: 90px;
+}
+
 .logo2{
 	display: none;
+	position: relative;
+    width: 70px;
 }
 .navbar-toggler span{
 	display: block;
@@ -101,6 +108,7 @@
 #slides{
     padding-top: 6.8rem;
     background-color: rgba(207, 231, 241, 0.324);   
+	text-align: center;
 }
 
 
@@ -109,23 +117,19 @@
     font-size: 45px;
     color: rgb(17, 28, 61);
     font-family: 'Oswald', sans-serif;
-	padding-top: 5rem;
+	padding-top: 7rem;
 }
 .intro-text p{
     font-weight: 400;
     font-size: 1.3rem;
     padding-top: 1rem ;
 }
-.intro-image img:nth-child(1){
+.intro-image img{
     width: 100%;
     padding-top: 1rem;
+	height: 40rem;
 }
-.intro-image img:nth-child(2){
-    position: absolute;
-    bottom: 6.5rem;
-    right: 21.6rem;
-    
-}
+
 .input-group {
 	padding-top: 2rem;
 	padding-right: 5.5rem;
@@ -148,35 +152,7 @@
 	border-radius: 0.25rem;
 	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 	}
-.input-group-append span{
-    background-color: rgba(247, 56, 56, 0.959);
-    padding: .8rem;
-}
 
-.input-group-append .fa{
-    color: #ffff;
-}
-
-.select{
-	padding-right: 3rem;
-}
-.select option{
-	background-color: #ffffff;
-}
-.new{
-	padding-top: 2rem;
-	padding-right: 3rem;
-}
-/* INSTALLERS */
-.installers{
-    background-color:#ffff;
-    padding: 3rem;
-    
-}
-.installers .container p{
-    text-align: center;
-    
-}
 
 
 /* ====================================================================
@@ -294,28 +270,31 @@
 
 /* SERVICE SECTION */
 #services{
-    background-color: rgba(207, 231, 241, 0.488);
+    background: rgba(207, 231, 241, 0.488);
+	padding-bottom: 4rem;
 }
 
 
 .services-text h1{
     text-align: center;
-    font-weight: 900;
-    font-size: 46px;
+    font-size: 38px;
+	font-weight: 700;
+	line-height: 53.82px;
     color: rgb(17, 28, 61);
     padding-top: 5rem ;
-    padding-bottom: 2rem ;
+    padding-bottom: 1.6rem ;
     font-family: 'Oswald', sans-serif;
 }
 .services-text h5{  
     font-weight: 600;
-    font-size: 1rem;
-    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    padding-bottom: 0.3rem;
     text-align: center;
     font-family: robotobold, sans-serif;
 }
 .services-text h6{  
     font-weight: 400;
+	line-height: 1.7rem;
     font-size: 1rem;
     padding-bottom: rem;
     font-family: robotoregular, Arial, sans-serif;
@@ -323,7 +302,7 @@
 .card-title{
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
-    padding-bottom: 1rem;
+    padding-bottom: 0.7rem;
 }
 .service-card .card:nth-child(2) {
     padding-bottom: 3rem;
@@ -334,12 +313,49 @@
 .card-custom2{
     padding-bottom: 2.4rem;
 }
+.card-text{
+	font-size: 16px;
+	font-weight: 400;
+}
 .card-text .fa{
 	color: red;
 	font-weight: 1000;
 }
 
+.card-img-top2{
+	height:"40";
+	width: 50%;
+	padding-left: 0rem;
+	padding-right: 0rem;
+	color: #aa1f43;
+}
+#how-it-works{
+	padding-top: 3rem;
+	background-color: #fff; 
+	padding-bottom: 6rem;
+}
 
+#how-it-works h2{
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 53.82px;
+}
+
+.card-bg{
+	background-color: rgba(207, 231, 241, 0.324); 
+	width: 100%;
+	padding-bottom: 1rem;
+	margin-top: 1rem;
+}
+.how-text .container p{
+	font-size: 18px;
+	font-weight: 400;
+}
+.how-text .container h4{
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: 1.1px;
+}
 /* ENJOY SECTOIN */
 #enjoy {
     background-color: rgb(4, 4, 109);
@@ -635,24 +651,32 @@
 /* ABOUT US  */
 
 #about-us{
-	padding-top: 8rem;
+	padding-top: 8.8rem;
 	background-color: rgba(207, 231, 241, 0.324); 
-	padding-bottom: 5rem;  
+	padding-bottom: 8.8rem;  
   }
 .about-intro{
 	text-align: center;
- 
 	padding-top: 3rem;
+	font-family: 'Oswald', sans-serif;
 }
 
 .about-text p{
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	padding-top: .8rem;
 	font-weight: 500;
 
 }
+
+
+
 @media (max-width: 767.98px){
-	
+	/* .slides .container .row .intro-text a{
+		text-align: center;
+		align-content: center;
+		justify-content: center;
+	}
+	 */
 	.navbar-toggler:hover, .navbar-toggler:focus {
 		text-decoration: none;
 		border: 0px  #ffffffa1;
@@ -666,7 +690,8 @@
 		padding: 1px 1px 1px 1px;
 	}
 	.logo2{
-		width: 80%;
+		position: relative;
+		width: 70px;
 	}
 	.contact-btn a:nth-child(1),a:nth-child(2), .logo{
 		display: none;
@@ -677,7 +702,7 @@
 		padding-top: 7.4rem;
 		background-color: rgba(207, 231, 241, 0.324);   
 	}
-
+	
     .intro-text h1{
 		font-weight:800;
 		font-size: 30px;
@@ -712,12 +737,14 @@
 	}
 	/* SERVICE SECTION */
 	.services-text h1{
-		text-align: center;
-		font-size: 25px;
-		color: rgb(17, 28, 61);
-		padding-top: 3rem ;
-		padding-bottom: 2rem ;
-		font-family: 'Oswald', sans-serif;
+		line-height: 33.82px;
+		display: block;
+		font-size: 1.5em;
+		margin-block-start: 0.83em;
+		margin-block-end: 0.83em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+		font-weight: bold;
 	}
 	.services-text h5{  
 		
@@ -768,6 +795,9 @@
 		display: inline;
 	}
 }
+
+
+
 
 
 

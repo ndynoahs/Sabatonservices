@@ -20,6 +20,9 @@ app.get('/', function(req, res){
 app.get('/sabatons-club', function(req, res){
     res.render('sabatons-club');
 });
+app.get('/fantastic-club', function(req, res){
+    res.render('fantastic-club');
+});
 app.get('/rates', function(req, res){
     res.render('rates');
 });
