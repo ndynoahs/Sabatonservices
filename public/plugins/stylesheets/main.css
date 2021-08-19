@@ -401,27 +401,30 @@ textarea.input100 {
 
 #location{
   margin-top: 6rem;
-  text-align: center;
+ 
   margin-bottom: rem;
 }
 #location .container h1{
   font-weight: 700;
   text-align: center;
- 
-
 }
 .location-info{
   margin-top: 3.5rem;
   padding-top: 5rem;
   background-color: rgba(207, 231, 241, 0.324); 
-  padding-bottom: 12rem;
+  padding-bottom: 2rem;
 }
 .location-info .container h1 {
   font-weight: 600;
+  font-family:'Oswald', sans-serif;
+
 }
 .location-info .container p{
-  padding-top: 1rem;
+  padding-top: 2rem;
   font-size: 1.3rem;
+  font-weight: 500;
+  line-height:  33.75px;
+
 }
 .location-info .container span{
   padding-left: 1rem;
@@ -429,7 +432,47 @@ textarea.input100 {
 .location-info .container a{
   font-size: 1rem;
   text-decoration: none;
-
+}
+#location-list {
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+  text-align: center;
+}
+.drainage-btn a{
+  color: #fff;
+}.drainage-btn a:hover{
+  color: #fff;
+}
+.drainage-btn{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -5px 20px -5px;
+  padding-top: 20px;
+  padding-left: 0;
+}
+.drainage-btn .btn{
+  position: relative;
+  display: inline-block;
+  min-width: 250px;
+  margin-left: 3rem;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #e74644;
+  background: #e74644;
+  font-size: 20px;
+  font-family: 'robotobold',sans-serif;
+  line-height: 26px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: .3s;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  
 }
 .map .container{
   padding-top: 2rem;
@@ -437,6 +480,7 @@ textarea.input100 {
 }
 a:hover{
   color: #c80000;
+  font-size: 1.2rem;
 }
 
 /* RATES TABLE  */
@@ -457,11 +501,11 @@ a:hover{
   }
   .location-info .container h1 {
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
   .location-info .container p{
     padding-top: 1rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
    .mapouter{position:relative;text-align:right;height:350px;width:300px;}
    .gmap_canvas {overflow:hidden;background:none!important;height:300px;width:350px;}

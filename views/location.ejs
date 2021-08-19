@@ -1,5 +1,7 @@
 <%- include('includes/header') -%>
 <link rel="stylesheet"  href="plugins/stylesheets/main.css" />
+<link rel="stylesheet"  href="plugins/stylesheets/table.css" />
+
 <body>
     <%- include('includes/navbar') -%>
     <section id="location">
@@ -7,16 +9,27 @@
             <div class="container">
                 <h1>Choose your location and book <br> your service today!</h1>
                 <p>
-                    My Plumber provides a range of services across Nigeria including Plumbing, 
-                    Boilers & Central Heating, Drainage, Kitchen and Bathroom plumbing. Below is a list of
+                    Sabaton Services provides a range of services across Nigeria including Plumbing, 
+                    Water treatment, Drainage, Kitchen and Bathroom plumbing. Below is a list of
                     some of the areas we include, if you cannot find your area, please contact our team to find out if we can 
                     provide services in your part of Nigeria.
-                    We currently cover the followng parts of <B>Lagos </B> 
-                </p>   
-                <a href="#ikeja"><span> IKOYI </span></a>  <a href="#ajah"><span> VICTORIA ISLAND </span></a>
-                <a href="#lekki"><span>LEKKI </span></a> <a href="#lekki"><span>IKEJA </span></a> 
-            </div>
+                   
+                </p>                   
+            </div>  
+            <div id="drainage-list">
+                <h2>
+                    We currently cover the followng parts of Lagos
+                </h2>
+                <div class="drainage-btn">
+                    <button class="btn btn-danger btn-lg"><a href="#ikeja"><span> IKOYI </span></a></button>
+                    <button class="btn btn-danger  btn-lg">  <a href="#ajah"><span> VICTORIA ISLAND </span></a></button>
+                    <button class="btn btn-danger btn-lg">  <a href="#ajah"><span> LEKKI</span></a> </button>
+                    <button class="btn btn-danger btn-lg">  <a href="#ajah"><span> IKEJA </span></a></button>
+                </div>
+            </div>       
         </div>
+        
+         
         <!-- <div class="map">
            <div class="container">
                 <div id="ikeja">
@@ -54,6 +67,19 @@
             </div> -->
         </div>
     </section>
+  
+    
+    <!-- <div id="drainage-list">
+        <h2>
+            We currently cover the followng parts of Lagos
+        </h2>
+        <div class="drainage-btn">
+            <button class="btn btn-danger btn-lg"><a href="#ikeja"><span> IKOYI </span></a></button>
+            <button class="btn btn-danger  btn-lg">  <a href="#ajah"><span> VICTORIA ISLAND </span></a></button>
+            <button class="btn btn-danger btn-lg">  <a href="#ajah"><span> VICTORIA ISLAND </span></a> </button>
+            <button class="btn btn-danger btn-lg">  <a href="#ajah"><span> IKEJA </span></a></button>
+        </div>
+    </div> -->
 
     <%- include('includes/footer')-%>
 </body>
