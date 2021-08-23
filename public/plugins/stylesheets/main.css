@@ -77,12 +77,12 @@ textarea:focus, input:focus {
   border-color: transparent !important;
 }
 
-input::-webkit-input-placeholder { color: #aaaac2;}
-input:-moz-placeholder { color: #aaaac2;}
-input::-moz-placeholder { color: #aaaac2;}
-input:-ms-input-placeholder { color: #aaaac2;}
+input::-webkit-input-placeholder { color: rgba(0, 0, 0, 0.76);}
+input:-moz-placeholder { color: rgba(0, 0, 0, 0.76);}
+input::-moz-placeholder { color: rgba(0, 0, 0, 0.76)#aaaac2;}
+input:-ms-input-placeholder { color: rgba(0, 0, 0, 0.76);}
 
-textarea::-webkit-input-placeholder { color: #bdbdd3;}
+textarea::-webkit-input-placeholder { color: rgba(0, 0, 0, 0.76);}
 textarea:-moz-placeholder { color: #bdbdd3;}
 textarea::-moz-placeholder { color: #bdbdd3;}
 textarea:-ms-input-placeholder { color: #bdbdd3;}
@@ -127,7 +127,7 @@ iframe {
   align-items: center;
   padding: 15px;
   position: relative;
-  background-color:rgba(207, 231, 241, 0.324);  
+  
 }
 
 .wrap-contact100 {
@@ -142,8 +142,8 @@ iframe {
 
 .contact100-form {
   width: 100%;
+  padding-top: 5rem;
 }
-
 .contact100-form-title {
   margin-top: 5rem;
   display: block;
@@ -163,6 +163,8 @@ iframe {
   width: 100%;
   background-color: #fff;
   border-radius: 31px;
+  /* border: 1.5px solid rgba(0, 0, 0, 0.212); */
+  border: 1.5px solid #ff791f6e;
   margin-bottom: 16px;
   position: relative;
   z-index: 1;
@@ -247,7 +249,7 @@ textarea.input100 {
   padding: 0 20px;
   min-width: 150px;
   height: 62px;
-  background-color: #c80000;
+	background-color: #ff781f; 
   border-radius: 31px;
 
   font-family: Ubuntu-Bold;
@@ -279,7 +281,7 @@ textarea.input100 {
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
   border-radius: 31px;
-  background-color: #c80000;
+	background-color: #ff791fb4; 
   pointer-events: none;
   
   -webkit-transition: all 0.4s;
@@ -289,7 +291,7 @@ textarea.input100 {
 }
 
 .contact100-form-btn:hover:before {
-  background-color: #c80000;
+	background-color: #ff781f; 
   width: calc(100% + 20px);
 }
 
@@ -388,12 +390,12 @@ textarea.input100 {
 .wrapper .bottom input[type="submit"]{
   border: none;
   cursor: pointer;
-  background: #c80000;
+  background-color: #ff781f;
   color: #fff;
   letter-spacing: 1px;
 }
 .wrapper .bottom input[type="submit"]:hover{
-  background: #c80000;
+  background:#ff791fa2;
 }
 
 
@@ -401,7 +403,8 @@ textarea.input100 {
 
 #location{
   margin-top: 6rem;
- 
+  background-color: #ff781f;
+  color: white;
   margin-bottom: rem;
 }
 #location .container h1{
@@ -410,9 +413,9 @@ textarea.input100 {
 }
 .location-info{
   margin-top: 3.5rem;
-  padding-top: 5rem;
-  background-color: rgba(207, 231, 241, 0.324); 
-  padding-bottom: 2rem;
+  padding-top: 8rem;
+  /* background-color: rgba(207, 231, 241, 0.324);  */
+  padding-bottom: 8rem;
 }
 .location-info .container h1 {
   font-weight: 600;
@@ -424,6 +427,7 @@ textarea.input100 {
   font-size: 1.3rem;
   font-weight: 500;
   line-height:  33.75px;
+  color: white;
 
 }
 .location-info .container span{
@@ -440,6 +444,7 @@ textarea.input100 {
 }
 .drainage-btn a{
   color: #fff;
+  /* color: black; */
 }.drainage-btn a:hover{
   color: #fff;
 }
@@ -458,8 +463,10 @@ textarea.input100 {
   margin-left: 3rem;
   padding: 15px;
   border-radius: 5px;
-  border: 1px solid #e74644;
-  background: #e74644;
+  /* border: 1px solid #e74644; */
+  /* background: #e74644; */
+  border: 1px solid orange;
+  background: #ff781f;
   font-size: 20px;
   font-family: 'robotobold',sans-serif;
   line-height: 26px;

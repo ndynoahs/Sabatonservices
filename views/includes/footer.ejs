@@ -145,6 +145,15 @@
 </script> -->
 <!--End of Tawk.to Script-->   
 <script>
+  function initFreshChat() {
+    window.fcWidget.init({
+      token: "0f4a04e4-bb9b-40b8-9b0e-b0337725661d",
+      host: "https://wchat.freshchat.com"
+    });
+  }
+  function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"Freshdesk Messaging-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
+</script>
+<!-- <script>
     function initFreshChat() {
       window.fcWidget.init({
         token: "d390ed78-c06f-461b-a365-932e549bbff2",
@@ -152,7 +161,7 @@
       });
     }
     function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"Freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
-</script>
+</script> -->
 
 <script src="plugins/js/jquery.js"></script> 
 <script src="plugins/js/bootstrap2.min.js"></script>  
