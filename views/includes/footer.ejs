@@ -208,5 +208,15 @@
                 }
             })
         });
-    </script>
+</script>
+
+<script>
+    $(".image").slice(0,7).show()
+    $(".btn-more").on("click", function(){
+        $(".image:hidden").slice(0, 3).slideDown()
+        if($(".image:hidden").length == 0) {
+          $(".btn-more").fadeOut('slow')
+        }
+    })
+</script>
   
